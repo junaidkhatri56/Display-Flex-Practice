@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 40px 0;
+}
+.parent{
+    border: 2px solid black;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.children{
+    border: 1px solid red;
+    padding: 50px 130px;
+}
+
+
